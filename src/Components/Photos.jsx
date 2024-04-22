@@ -41,12 +41,12 @@ const PhotoGallery = () => {
       </div>
       
       {/* Scrollable container for top photos */}
-      <div className="flex justify-center pt-14 ">
+      <div className="flex justify-center pt-14">
         {topPhotos.map((photo, index) => (
-          <div cwlassName="relative" key={index}>
+          <div className="relative" key={index}>
             <img src={photo.imageSrc} alt="Image" />
             <div className="absolute bottom-10 left-14 p-4">
-              <h1 className="text-[57px] text-opacity-50">{photo.count}</h1>
+              <h1 className="text-[57px] text-white text-opacity-50">{photo.count}</h1>
               <h3 className="text-[20px] text-white">{photo.city}</h3>
             </div>
           </div>
@@ -59,7 +59,7 @@ const PhotoGallery = () => {
           <div className="relative" key={index}>
             <img src={photo.imageSrc} alt="Image" />
             <div className="absolute bottom-10 left-14 p-4">
-              <h1 className="text-[57px] text-opacity-50">{photo.count}</h1>
+              <h1 className="text-[57px] text-white text-opacity-50">{photo.count}</h1>
               <h3 className="text-[20px] text-white">{photo.city}</h3>
             </div>
           </div>

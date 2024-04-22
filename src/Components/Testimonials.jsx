@@ -3,7 +3,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <>
-      <div className="flex justify-around">
+      <div className="flex justify-around flex-wrap">
         <div className="text-left w-[415px] flex-col flex gap-10">
           <h3 className="text-[20px] text-[#4361EE] pt-8">TESTIMONIALS</h3>
           <h2 className="text-[40px] h-[75px] w-[415px] font-[600] text-black font-serif">
