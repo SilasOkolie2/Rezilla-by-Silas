@@ -9,7 +9,7 @@ const Team = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-12">
+      <div className="md:flex-wrap flex-col gap-12">
         <div className="text-center pt-8">
           <h3 className="text-[20px] text-[#4361EE]">INTRODUCE YOURSELF TO</h3>
           <h2 className="text-[40px] font-medium text-black font-serif">
@@ -17,7 +17,7 @@ const Team = () => {
           </h2>
         </div>
 
-        <div className="flex justify-center gap-10 pb-8 items-center" data-aos="zoom-in-left">
+        <div className="flex sm:flex-wrap android:flex-wrap justify-center gap-10 pb-8 items-center" data-aos="zoom-in-left">
           <div className="flex flex-col gap-4">
             <img src="public\Rectangle 29.png" alt="Brendom" />
             <div className="text-center">

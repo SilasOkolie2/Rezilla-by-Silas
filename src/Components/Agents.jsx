@@ -2,8 +2,8 @@ import React from "react";
 
 const Agents = () => {
   return (
-    <div className="pt-14 h-screen">
-      <div className="bg-[#03AEFD] h-[260px] rounded-2xl ">
+    <div className="pt-14 p-14">
+      <div className="bg-[#6fb1cf] h-[260px] rounded-2xl ">
         <div className="flex justify-around items-center">
           <div className="relative bottom-11">
             <img src="/unsplash_7uoMmzPd2JA.png" alt="Agent" />
@@ -17,7 +17,7 @@ const Agents = () => {
               felis scelerisque.
             </p>
           </div>
-          <button className="btn border-0 bg-white  tex mt-4">
+          <button className="btn border-0 bg-white text-blue-500  tex mt-4">
             Register Now
           </button>
         </div>

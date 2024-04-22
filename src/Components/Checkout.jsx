@@ -3,7 +3,7 @@ import React from "react";
 const Checkout = () => {
   return (
     <>
-<div className=" flex justify-around items-center ">
+<div className=" flex justify-around items-center py-8">
         <div className="text-center lg:text-left w-[466px] leading-[45px]">
           <h1 className="text-[19.4px]  font-semibold text-[#4361EE]">
             CHECKOUT OUR NEW

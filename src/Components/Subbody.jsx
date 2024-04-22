@@ -9,8 +9,11 @@ const Subbody = () => {
 
   return (
     <>
-      <div className="flex-col items-center justify-between p-40">
-        <div className="flex flex-col items-center justify-center" data-aos="zoom-in-left">
+      <div className="flex flex-col items-center justify-around p-16">
+        <div
+          className="flex flex-col items-center justify-center"
+          data-aos="zoom-in-left"
+        >
           <div className="text-16px leading-24px">
             <span> Trusted by 100+ Companies across the globe! </span>
           </div>

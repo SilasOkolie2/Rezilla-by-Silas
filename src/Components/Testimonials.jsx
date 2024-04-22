@@ -19,15 +19,17 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="pt-8">
-          <img src="public\“.png" />
-          <h3 className="w-[380px] h-[130px] pt-4">
-            I highly recommend Jodi J. Appleby. She was attentive to our needs
-            and worked tirelessly to find us the perfect home. We couldn't be
-            happier with our new place!
-          </h3>
+        <div className="p-8 flex-col gap-6 shadow-xl leading-8">
+          <div className="pb-14">
+            <img src="public\“.png" />
+            <h3 className="w-[380px] h-[130px] pt-4">
+              I highly recommend Jodi J. Appleby. She was attentive to our needs
+              and worked tirelessly to find us the perfect home. We couldn't be
+              happier with our new place!
+            </h3>
+          </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex justify-around">
             <img src="public\Ellipse 15.png" />
 
             <h3>Barbara D. Smith </h3>

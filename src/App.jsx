@@ -13,11 +13,13 @@ import Latests from "./Components/Latests";
 import Testimonials  from "./Components/Testimonials";
 import Agents  from "./Components/Agents";
 import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Nav/>
       <Body />
       <Listings />
       <Subbody />
